@@ -1,0 +1,15 @@
+{
+  "name": "p2o-socket.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.2.0",
+    "socket.io-client": "^4.2.0"
+  }
+}
