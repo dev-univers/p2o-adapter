@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6", 
+    "lib": ["esnext","dom"], 
+    "module": "esnext", 
+    "rootDir": "./src",
+    "pretty": true,
+    "allowJs": true, 
+    "declaration": true, 
+    "outDir": "./lib/esm", 
+    "strict": true, 
+    "allowUnusedLabels": true
+  },
+  "include": ["src"]
+}

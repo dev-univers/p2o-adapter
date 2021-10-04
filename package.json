@@ -4,6 +4,7 @@
     "description": "Peer to object adapter",
     "main": "lib/cjs/index.js",
     "module": "lib/esm/index.js",
+    "types": "index.d.ts",
     "scripts": {
         "build": "rm -fr lib/ && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json"
     },
@@ -15,13 +16,15 @@
         "lib",
         "package.json",
         "LICENCE",
-        "README.md"
+        "README.md",
+        "index.d.ts"
     ],
     "keywords": [
         "client",
         "server",
         "react-native-webview",
-        "worker"
+        "worker",
+        "react-native"
     ],
     "author": "",
     "license": "MIT",

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6", 
+    "lib": ["esnext","DOM"], 
+    "pretty": true,
+    "moduleResolution": "node",
+    "module": "commonjs", 
+    "rootDir": "./src",
+    "allowJs": true, 
+    "outDir": "./lib/cjs", 
+    "strict": true, 
+    "allowUnusedLabels": true
+  },
+  "include": ["src"]
+}
