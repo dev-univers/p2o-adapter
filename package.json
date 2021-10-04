@@ -1,0 +1,35 @@
+{
+    "name": "p2o-adapter",
+    "version": "1.0.0",
+    "description": "Peer to object adapter",
+    "main": "lib/cjs/index.js",
+    "module": "lib/esm/index.js",
+    "scripts": {
+        "build": "rm -fr lib/ && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dev-univers/p2o-adapter.git"
+    },
+    "files": [
+        "lib",
+        "package.json",
+        "LICENCE",
+        "README.md"
+    ],
+    "keywords": [
+        "client",
+        "server",
+        "react-native-webview",
+        "worker"
+    ],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dev-univers/p2o-adapter/issues"
+    },
+    "homepage": "https://github.com/dev-univers/p2o-adapter#readme",
+    "devDependencies": {
+        "typescript": "^4.4.3"
+    }
+}
