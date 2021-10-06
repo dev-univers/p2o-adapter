@@ -84,7 +84,7 @@ $ npm install p2o-adapter
 
             proxy.app.alert('ok! ')
 
-            alert(console.app.fact(5))
+            alert(proxy.app.fact(5))
         })()
         ```
 
